@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    height: 1024px;
+    background-image: url("./image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.a div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.a button{
+  
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+color: white;
+padding: 14px 20px ;
+background: #009FF5B5;
+border-radius: 10px;
+border: none;
+box-shadow: 0px 4px 4px 0px #DAD3FF;
+
+}
+.a p{
+    color: white;
+
+}
+select{
+   background-color: inherit   ;
+   border: none;
+   color: white;
+   font-size: 18px  ;
+
+}
+option{
+    background-color: black;
+}
+h1{
+    width: 603px;
+    height: 103px;
+   
+font-weight: 700;
+font-size: 36px;
+text-shadow: 0px 4px 4px  #0047FF;
+background: #FFC611;
+border: 11px solid #5A5555;
+border-radius: 50px;
+text-align: center;
+padding-top: 25px;
+margin: 100px auto;
+}
+.card{
+    width: 361px;
+    height: 420px;
+    text-align: center;
+    background: #1F1F1F;
+    box-shadow: 8px 7px 20px 0px #FFFFFF;
+
+}
+.card h2{
+    text-shadow: 0px 4px 4px  #FFC200;
+   
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+   
+    
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    background: #000000;
+
+}
+h3{
+font-weight: 600;
+font-size: 64px;
+line-height: 100%;
+text-shadow: 0px 4px 4px  #FFFFFF;
+color: #5A5555;
+text-align: center;
+}
+.bola p{
+    color: white;
+   font-size: 25px;
+}
+.ota2 button{
+font-weight: 700;
+font-size: 27px;
+line-height: 100%;
+color: #000000;
+width: 278px;
+height: 61px;
+background: #FFC200;
+box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+text-shadow: 0px 4px 4px  #040404CF;
+border: none;
+}
+.ota2 button:active{
+    background: #535353;
+    text-shadow: 0px 4px 4px  #040404CF;
+    color: #FFFFFF;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+
+    
+}
+.bola{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+  padding-top: 25px;
+}
+footer{
+    width: 1440px;
+    height: 160px;
+    background: #FFC611;
+margin-top: 25px;
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+  
+}
+body{
+    background-color: #000000;
+}
